@@ -13,12 +13,12 @@ function respond() {
   }
   else if(request.text && botRegex4d.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/1440x747.png.ec41361b9bef44fe81620c7a482c823b");
+    postMessage("https://i.groupme.com/1440x747.png.cf963b502553444db8ba5d99323a85c3");
     this.res.end();
   } 
    else if(request.text && botRegexDa.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://imgur.com/HZNJtD4");
+    postMessage("https://i.groupme.com/540x960.png.d946e263ad1e427f9cf739bcb626f78b");
     this.res.end();
   }
    else {
